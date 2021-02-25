@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="45" viewBox="0 0 45 45">
+  <defs>
+    <clipPath id="clip-ic_bank">
+      <rect width="45" height="45"/>
+    </clipPath>
+  </defs>
+  <g id="ic_bank" clip-path="url(#clip-ic_bank)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="22.5" cy="22.5" r="22.5" fill="#ebfdff"/>
+    <g id="Rectangle_24" data-name="Rectangle 24" transform="translate(8 13)" fill="none" stroke="#0030aa" stroke-width="2">
+      <rect width="29" height="19" rx="3" stroke="none"/>
+      <rect x="1" y="1" width="27" height="17" rx="2" fill="none"/>
+    </g>
+    <g id="Rectangle_23" data-name="Rectangle 23" transform="translate(8 25)" fill="none" stroke="#0030aa" stroke-width="2">
+      <rect width="29" height="2" stroke="none"/>
+      <rect x="1" y="1" width="27" fill="none"/>
+    </g>
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="2.5" cy="2.5" r="2.5" transform="translate(12 17)" fill="#00d4ff"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="2.5" cy="2.5" r="2.5" transform="translate(15 17)" fill="#0030aa"/>
+  </g>
+</svg>

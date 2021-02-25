@@ -1,0 +1,742 @@
+$primary: #375df1;
+$secondary:#FBFBFB;
+
+
+// index.html
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+
+//navbar 
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            font-size: 16px;
+            color: #000000;
+            font-weight: 300;
+
+            &.active {
+                font-weight: 500;
+            }
+
+            &:hover {
+                font-weight: 500  ;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.btn-login {
+    background-color: $primary;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    width: 107px;
+}
+
+// akhir navbar
+
+// header
+header {
+    margin-top: 80px;
+    padding: 40px 0px;
+
+    .btn-more {
+        background: #ffffff;
+        font-size: 16px;
+        padding: 16px 0px;
+        line-height: 18px;
+        font-weight: 500;
+        border: 2px solid $primary;
+        box-sizing: border-box;
+        border-radius: 5px;
+        height: 50px;
+        width: 180px;
+
+        &:hover {
+                background-color: $primary;
+                color: white;
+        }
+    }
+
+    .teks-header {
+        h1 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 50px;
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+
+            color: #000000;
+        }
+
+        p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.01em;
+            text-transform: capitalize;
+            color: #5a5a5a;
+        }
+    }
+}
+
+// akhir header
+
+// exclusive-trip
+.exclusive-trip {
+    padding: 50px 0px;
+    background-color: $primary;
+    color: white;
+
+    h1 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 42px;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        display: block;
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    .price {
+        span {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+
+    .btn-join {
+        background-color: white;
+        padding: 16px;
+        color: black;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 5px;
+        height: 50px;
+        width: 180px;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    .img-content {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        border-radius: 10px;
+                        height: 320px;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+// akhir exclusive-trip
+
+// another trips
+.another-trips {
+    padding: 50px 0px 50px 0px;
+
+    .title {
+        h1 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 45px;
+            text-transform: capitalize;
+            color: #000000;
+        }
+
+        p {
+            margin-top: 16px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+
+    .card {
+        margin-top: 30px;
+        border-radius: 20px;
+
+        &:hover {
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+        }
+
+        img {
+            border-radius: 20px 20px 0px 0px;
+            height: 300px;
+        }
+
+        .card-title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        .card-body {
+          .location {
+            font-size: 14px !important;
+            font-weight: 300;
+            display: block;
+            display: -webkit-box;
+            max-width: 100%;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+
+        .card-text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            color: #000000;
+            display: block;
+            display: -webkit-box;
+            max-width: 100%;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .harga {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: 0.02em;
+            color: #000000;
+        }
+
+        .btn-detail {
+            background: #ffffff;
+            font-size: 16px;
+            padding: 16px 0px;
+            line-height: 18px;
+            font-weight: 500;
+            border: 2px solid $primary;
+            box-sizing: border-box;
+            border-radius: 5px;
+            height: 50px;
+            width: 140px;
+
+            &:hover {
+                background-color: $primary;
+                color: white;
+            }
+        }
+
+
+    }
+}
+
+// akhir another trips
+
+// testimoni
+.testimoni {
+    background-color: $primary;
+    padding: 50px 0px;
+
+    .title {
+        h1 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 45px;
+            text-transform: capitalize;
+            color: #fff;
+        }
+
+        p {
+            margin-top: 28px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 24px;
+            /* or 133% */
+
+
+            color: #FFFFFF;
+        }
+    }
+
+    .card-testimoni {
+        .card {
+            margin-top: 30px;
+            border-radius: 10px;
+
+            .card-header {
+                // padding: 20px;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .nama-testi {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    color: #000000;
+                }
+
+                .pekerjaan {
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-transform: capitalize;
+                    color: #000000;
+                }
+            }
+
+            .card-text {
+              font-size: 16px;
+              line-height: 28px;
+            }
+        }
+    }
+
+}
+
+// akhir testimoni
+
+// content fun
+.content-fun {
+    padding: 70px 0px;
+
+    .title {
+        margin-bottom: 30px;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 37px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+        text-transform: capitalize;
+
+        color: #000000;
+    }
+
+    .btn-daftar {
+      background: #ffffff;
+      font-size: 16px;
+      padding: 16px 0px;
+      line-height: 18px;
+      font-weight: 500;
+      border: 2px solid $primary;
+      box-sizing: border-box;
+      border-radius: 5px;
+      height: 50px;
+      width: 180px;
+
+      &:hover {
+          &:hover {
+              background-color: $primary;
+              color: white;
+          }
+      }
+  }
+
+}
+
+// akhir content fun
+
+// footer
+footer {
+    padding-top: 50px;
+    background-color: #f1f1f1;
+    li {
+        margin: 12px 0px;
+        a {
+             font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+}
+// akhir footer
+
+// akhir index.html
+
+// detail.html
+.section-detail {
+    margin-top: 80px;
+    
+    .breadcrumb {
+        padding: 30px 0px;
+        background-color: #fff;
+        .breadcrumb-item {  
+            a{
+                color: $primary !important;
+            }
+            &.active {
+                font-weight: 600;
+                color:#000000 !important;
+            }
+            
+        }
+    }
+
+    .xzoom-container {
+        // display: block;
+        
+        img{
+            border-radius: 5px;
+        }
+
+        .xzoom {
+          width: 100%;
+          box-shadow: none;
+          margin-bottom: 10px;
+        }
+  
+        .xactive {
+          border: 2px solid #1abc9c;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50) ;
+        }
+      }
+
+    .text-detail {
+        h1 {
+            font-size: 22px;
+        }
+
+        .location {
+          font-size: 16px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        h2 {
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+
+        .trip-informations {
+            th {
+              font-weight: 400;
+              font-size: 16px;
+              color: #000000;
+            }
+            td {
+              font-weight: 300;
+              font-size: 16px;
+              color: #000000;
+            }
+          }
+        }
+
+    .btn-join-now {
+        background-color:$primary;
+        color: #fff;
+        border-radius: 0px;
+    
+        &:hover {
+          color: #fff;
+        }
+    }
+
+    .includes {
+        .text {
+            h4 {
+                font-size: 18px;
+                font-weight: 400;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+
+        img {
+            width: 38px;
+            height: 38px;
+        }
+    }
+}
+
+// checkout
+.section-checkout {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+    .breadcrumb {
+        padding: 30px 0px;
+        background-color: #fff;
+        .breadcrumb-item {  
+            a{
+                color: $primary !important;
+            }
+            &.active {
+                font-weight: 600;
+                color:#000000 !important;
+            }
+            
+        }
+    }
+  
+    .card-details {
+      padding: 30px;
+      border-radius: 10px;
+  
+      .trip-informations {
+        th {
+            font-weight: 400;
+            font-size: 16px;
+            color: #000000;
+          }
+          td {
+            font-weight: 300;
+            font-size: 16px;
+            color: #000000;
+          }
+  
+        .text-blue {
+          color: #000000;
+          font-weight: bold;
+        }
+  
+        .text-unique {
+          color: $primary;
+          font-weight: bold;
+        }
+      }
+  
+      h1 {
+        font-size: 26px;
+      }
+  
+      h2 {
+        font-size: 20px;
+      }
+  
+      p {
+        font-size: 18px;
+        color: #b1b1b1;
+      }
+  
+      .payment-instructions {
+        font-weight: 300;
+        font-size: 14px;
+        color: #b1b1b1;
+      }
+  
+      .disclaimer {
+        font-weight: 300;
+        font-size: 14px;
+        color: #b1b1b1;
+      }
+  
+    }
+  
+    .card-right {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom: none;
+    }
+  
+    .gallery {
+      .xzoom-container {
+        display: block;
+  
+        .xzoom {
+          width: 100%;
+          box-shadow: none;
+          margin-bottom: 10px;
+        }
+  
+        .xactive {
+          border: 2px solid #1abc9c;
+          box-shadow: none;
+        }
+      }
+    }
+  
+    .features {
+      margin-top: 20px;
+  
+      h3 {
+        font-size: 18px;
+        color: #071c4d;
+        margin-bottom: 0;
+      }
+  
+      p {
+        margin-bottom: 0;
+      }
+  
+      .description {
+        margin-left: 10px;
+        overflow: hidden;
+        float: left;
+      }
+  
+      .features-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+  
+    .join-container {
+      margin-top: -16px;
+    }
+  
+    .btn-join-now {
+      background-color: $primary;
+      color: #fff;
+      border-radius: 0;
+  
+  
+      &:hover {
+        color: #fff;
+      }
+    }
+  
+    .bank {
+      .bank-item {
+  
+        h3 {
+          font-size: 18px;
+          font-weight: 600;
+          color: #000000;
+          margin-bottom: 0;
+        }
+  
+        p {
+          margin-bottom: 0;
+        }
+  
+        .description {
+          margin-left: 10px;
+          overflow: hidden;
+          float: left;
+  
+          p {
+            font-weight: normal;
+            font-size: 16px;
+            text-align: left;
+            color: #000000;
+          }
+        }
+  
+        .bank-image {
+          width: 45px;
+          height: 45px;
+          float: left;
+        }
+      }
+    }
+  
+    .btn-add-now {
+      background-color: $primary;
+      color: #fff;
+  
+      &:hover {
+        color: #fff;
+      }
+    }
+  
+    .input-group-text {
+      background-color: transparent;
+    }
+  
+    h3 {
+      font-weight: 400;
+      font-size: 14px;
+      color: #000000;
+    }
+  
+    .gj-datepicker {
+      .datepicker {
+        border-right: 0;
+      }
+  
+      .input-group-append {
+        .btn {
+          padding-right: 30px;
+        }
+      }
+  
+    }
+}
+
+// about.html
+.title {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+// faq.html
+.faq{
+  margin-top: 80px;
+  margin-bottom: 200px;
+  .card-header {
+    background-color: $primary;
+    button {
+      text-decoration: none;
+    }
+  }
+  .btn {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-body{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+}
