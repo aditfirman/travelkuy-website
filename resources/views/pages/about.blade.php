@@ -55,10 +55,10 @@
                 <p class="font-weight-bold">Email</p>
                 <p>travelkuyadmin@travelkuy.com</p>
                 <p class="font-weight-bold">Alamat</p>
-                <p>Jalan Beringin F-10 Perum. Pertamina Rawabadak, Koja - Jakarta Utara</p>
+                <p>Koja - Jakarta Utara</p>
             </div>
             <div class="col-12 col-md">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.070935796172!2d106.9006399153826!3d-6.12115476172928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1ff0607d7ec3%3A0xeaabca74c99f166b!2sJl.%20Beringin%2C%20Rawabadak%20Utara%2C%20Kec.%20Koja%2C%20Kota%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2014230!5e0!3m2!1sid!2sid!4v1593157525839!5m2!1sid!2sid" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31736.609313219724!2d106.88872490768436!3d-6.120450595323133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1ff0d497530b%3A0xe8c38931491aa5c5!2sKec.%20Koja%2C%20Kota%20Jkt%20Utara%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1616398918541!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
