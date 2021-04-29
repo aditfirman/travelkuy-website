@@ -41,11 +41,11 @@
     </li>
 
     {{-- Nav Item Logout --}}
-    <li class="nav-item active">
+    {{-- <li class="nav-item active">
       <a class="nav-link" href="{{url('logout')}}">
         <i class="fas fa-fw fa-dollar-sign"></i>
         <span>Transaksi</span></a>
-    </li>
+    </li> --}}
 
     <!-- Divider -->
     <hr class="sidebar-divider d-none d-md-block">
